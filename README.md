@@ -54,3 +54,17 @@ This approach helps the franchise maximize on-field impact while maintaining fin
 ## Tools Used
 - SQL
 - Excel (for validation and summaries)
+
+## Sample Outputs
+
+Below are sample outputs from the analysis:
+
+- **Batsman Eligibility**: Identifies players with sufficient sample size (500+ balls).
+- **Strike Rate Analysis**: Highlights aggressive scorers suitable for power roles.
+- **Aggressive Batters**: Batters with strike rate ≥ 140.
+- **Anchor Batters**: Consistent batters ranked by batting average.
+- **Hard Hitters**: Players with high boundary contribution percentage.
+
+These outputs demonstrate how different batting roles were identified using
+role-specific performance metrics.
+

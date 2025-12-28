@@ -9,3 +9,4 @@ FROM ipl_ball
 GROUP BY batter
 HAVING COUNT(CASE WHEN extras_type != 'wides' THEN 1 END) >= 500
 ORDER BY total_runs DESC;
+
